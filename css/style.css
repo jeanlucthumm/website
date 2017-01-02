@@ -4,14 +4,24 @@
 }
 
 #container {
-    margin-top: 18px;
     font-family: "Bookman Old Style", serif;
+    margin: auto;
+    width: 55%;
+    transition: width 1.2s;
 }
 
-#container {
-    margin: auto;
-    width: 80%;
+@media (max-width: 1480px) {
+    #container {
+        width: 70%;
+    }
 }
+
+@media (max-width: 1050px) {
+    #container {
+        width: 80%;
+    }
+}
+
 
 header {
     text-align: center;
